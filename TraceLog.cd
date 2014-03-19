@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="ICI.TraceLog.Dominio.Log">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAA=</HashCode>
+      <FileName>Dominio\Log.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICI.TraceLog.Dominio.LogErro">
+    <Position X="0.5" Y="2.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAACAAAAAgAEIAAABAAAAAgAAAAAAAABEAUAAAA=</HashCode>
+      <FileName>Dominio\LogErro.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ErroPai" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ICI.TraceLog.Dominio.LogTrace">
+    <Position X="4" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Dominio\LogTrace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICI.TraceLog.Dominio.LogTransacao">
+    <Position X="7.5" Y="2.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIIAAAAQAAAAAAABAAAAAAAAAAAgQ=</HashCode>
+      <FileName>Dominio\LogTransacao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICI.TraceLog.Fachada.LogFacade">
+    <Position X="7.25" Y="5.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAIAAAAAAACAAAAAAIAAAAAEAAAQAAgAAgA=</HashCode>
+      <FileName>Fachada\LogFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICI.TraceLog.Persistencia.Fabrica.FactoryFactoryAD">
+    <Position X="14" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Persistencia\Fabrica\FactoryFactoryAD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICI.TraceLog.Persistencia.Fabrica.FactorySQL" BaseTypeListCollapsed="true">
+    <Position X="14" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Persistencia\Fabrica\FactorySQL.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ICI.TraceLog.Persistencia.LogSQL" BaseTypeListCollapsed="true">
+    <Position X="20.75" Y="0.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAACACRAAAAAQAgAAAAAIAAAAEAABBAIAAAAAAAAAgA=</HashCode>
+      <FileName>Persistencia\LogSQL.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ICI.TraceLog.Dominio.Annotations.LogarOperacao">
+    <Position X="16.75" Y="5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Dominio\Annotations\LogarOperacao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICI.TraceLog.Dominio.Annotations.LogarAtributo">
+    <Position X="14" Y="5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Dominio\Annotations\LogarAtributo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICI.TraceLog.Dominio.Annotations.LogarEntidade">
+    <Position X="19.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dominio\Annotations\LogarEntidade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ICI.TraceLog.Persistencia.Abstracao.ILogAD">
+    <Position X="16.25" Y="0.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAACACRAAAAAQAAAAAAAIAAAAAAABAAIAAAAAAAAAgA=</HashCode>
+      <FileName>Persistencia\Abstracao\ILogAD.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ICI.TraceLog.Persistencia.Fabrica.IFactoryAD">
+    <Position X="14" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Persistencia\Fabrica\IFactoryAD.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ICI.TraceLog.Dominio.TipoOperacao">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAEAAARA=</HashCode>
+      <FileName>Dominio\TipoOperacao.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
